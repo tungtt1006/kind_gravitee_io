@@ -1,0 +1,10 @@
+mongo:
+  uri: mongodb://my-user:12345@mongodb-0.mongodb-svc.default.svc.cluster.local:27017/admin?replicaSet=mongodb
+  sslEnabled: false
+
+es:
+  security:
+    enabled: true
+    username: elastic
+    password: 760c269q55svfujpiNDhm0u0
+  endpoints: [https://quickstart-es-http:9200]
